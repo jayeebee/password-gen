@@ -1,0 +1,44 @@
+
+function getRandomUpper() {
+  upperCharacters[Math.floor(Math.random() * upperCharacters.length)];
+}
+
+function getRandomLower() {
+  lowerCharacters[Math.floor(Math.random() * lowerCharacters.length)];
+}
+
+function getRandomNumber() {
+  numbers[Math.floor(Math.random() * numbers.length)];
+}
+
+function getRandomSymbol() {
+  symbols[Math.floor(Math.random() * symbols.length)];
+}
+
+
+  if (lowerCaseConfirm === true) {
+    var lowerCase =
+      lowerCharacters[Math.floor(Math.random() * lowerCharacters.length)];
+  password.push(lowerCase);
+    }
+
+
+  if (upperCaseConfirm === true)  {
+    var upperCase =
+      upperCharacters[Math.floor(Math.random() * upperCharacters.length)];
+  password.push(upperCase);
+    }
+
+  
+  if (numberConfirm === true)  {
+    var numberValue =
+      numbers[Math.floor(Math.random() * numbers.length)];
+  password.push(numberValue);
+    }
+
+  
+  if (symbolConfirm === true)  {
+    var symbolValue =
+      symbols[Math.floor(Math.random() * symbols.length)];
+  password.push(symbolValue);
+    }
